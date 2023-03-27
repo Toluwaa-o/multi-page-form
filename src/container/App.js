@@ -9,7 +9,7 @@ import Page from './Page'
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path='/' element={<Page />} errorElement={<ErrorPage />}>
+        <Route path='/multi-page-form' element={<Page />} errorElement={<ErrorPage />}>
             <Route index element={<Info />} />
             <Route path="plan" element={<Plan />} />
             <Route path='add-ons' element={<Addons />} />
