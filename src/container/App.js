@@ -11,10 +11,10 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path='/multi-page-form' element={<Page />} errorElement={<ErrorPage />}>
             <Route index element={<Info />} />
-            <Route path="plan" element={<Plan />} />
-            <Route path='add-ons' element={<Addons />} />
-            <Route path='summary' element={<Summary />} />
-            <Route path='completed' element={<Completed />} />
+            <Route path="/plan" element={<Plan />} />
+            <Route path='/add-ons' element={<Addons />} />
+            <Route path='/summary' element={<Summary />} />
+            <Route path='/completed' element={<Completed />} />
 
             <Route path='*' element={<ErrorPage />} />
         </Route>
